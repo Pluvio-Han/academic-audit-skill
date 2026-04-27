@@ -95,6 +95,21 @@ academic-audit/
     └── claim_evidence_matrix.md
 ```
 
+## File Guide
+
+- `academic-audit/SKILL.md`: Core trigger, workflow, audit modes, severity system, and output contract.
+- `academic-audit/references/audit_dimensions.md`: The shared eight-dimension audit rubric.
+- `academic-audit/references/discipline_overrides.md`: Field-specific priorities and blockers.
+- `academic-audit/references/competition_papers.md`: Competition-paper scoring logic, type profiles, time-pressure handling, and appendix/code checks.
+- `academic-audit/references/citation_integrity.md`: Citation, source quality, bibliography, and reference consistency checks.
+- `academic-audit/references/method_rigor.md`: Method, statistics, ML/data science, qualitative, theoretical, and reproducibility checks.
+- `academic-audit/references/language_style.md`: Scholarly style checks for English, Chinese, and mixed-language manuscripts.
+- `academic-audit/references/format_submission.md`: LaTeX/DOCX/PDF formatting, required statements, and Chinese competition formatting.
+- `academic-audit/references/revision_protocol.md`: Revision-audit workflow and regression status definitions.
+- `academic-audit/templates/audit_report.md`: Default full audit report skeleton.
+- `academic-audit/templates/claim_evidence_matrix.md`: Claim-evidence matrix template and claim identification guide.
+- `academic-audit/agents/openai.yaml`: UI metadata and default invocation prompt.
+
 ## Example Output Sections
 
 The skill asks the agent to produce an `Academic Audit Report` with:
