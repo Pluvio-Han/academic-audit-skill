@@ -1,0 +1,8 @@
+interface:
+  display_name: "Academic Audit"
+  short_description: "Audit research and competition paper rigor"
+  brand_color: "#2563EB"
+  default_prompt: "Use $academic-audit to audit this manuscript. First identify the document type, target venue or competition if known, and language. If missing, infer them and state your assumptions. Use full-audit for complete manuscripts and triage for outlines or short drafts."
+
+policy:
+  allow_implicit_invocation: true
